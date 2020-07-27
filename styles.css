@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+/*Definindo variáveis*/
+:root{
+    --color-font:#222222;
+    --color-hover: #122ab2;
+
+}
+
+/*Retirando configurações prévias dos Browsers e de algumas tags*/
+*{
+    margin: 0px;
+    border: 0px;
+    padding:0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Nunito", Helvetica, Arial, sans-serif;
+    color: var(--color-font)
+}
+
+img{
+    display: block;
+    max-width: 100%; /*As imagens se tornam responsivas assim! Eu diminuo a tela, ela diminui tb!
+    To garantindo aqui maximo tamanho dela e redução do seu tamanho mantendo qualidade em outras telas menores.*/
+}
+
+/*Estilizando Superinfo*/
+.superinfo-bg{
+   background-color: var(--color-hover);
+   color:white;
+}
+
+.superinfo {
+    max-width: 960px; /*Coloquei o tamanho máximo da caixa que quero */
+    margin: 0 auto;/*Alinhei ao centro*/
+    display: flex;/*Transformei os filhos em flex-itens*/
+    justify-content: space-between;/*Distribui todos os filhos com espaçamento entre eles iguais*/
+    flex-wrap: wrap; /*Ao diminuir a tela os elementos estão se amontoando. Quero que eles quebrem para a próxima linha.*/
+
+    padding-top: 10px; /*Descer um pouco em relação ao topo*/
+}
+.superinfo p, .superinfo a{
+    margin: 0 10px 10px 10px;/* Ao quebrar ele dá uns espaçamentos legais na esquerda, direita e embaixo*/
+}
+
+.superinfo a{
+    color: white;
+}
+
+/*Estilizando meu MENU*/
+
+.menu-bg{
+    background-color: #2c70ff;
+}
+
+.menu{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: center;/*Alinhando logo e menu de nav ao centro*/
+    justify-content: space-between;
+    padding: 15px 0;
+
+}
+.menu-logo a{
+    color: white;
+    font-weight: 700;
+    font-size: 2.25em;
+    padding: 0px 10px;
+}
+
+.menu nav ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu nav ul li a{
+    color: white;
+    display:block; /*Transformei o a em block para poder mexer no padding pra cima e para baixo dele*/
+    padding: 10px;
+    font-weight: 700;
+    font-size: 1.25em;
+}
+
+.menu nav a:hover{
+    color: var(--color-hover);
+    transition: color 400ms;
+}
