@@ -5,6 +5,7 @@
 :root{
     --color-font:#222222;
     --color-hover: #122ab2;
+    --color-text: #a4a4a4;
 
 }
 
@@ -92,4 +93,270 @@ img{
 .menu nav a:hover{
     color: var(--color-hover);
     transition: color 400ms;
+}
+
+/*Editando parte do título*/
+.title{
+    font-size: 3em;
+    line-height: 1;
+    font-weight: 700;
+
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+
+/*Editando parte do sobre*/
+.about{
+    display: flex;
+    flex-wrap:wrap;
+    max-width: 960px;
+    margin: 0 auto;
+    border-top: 2px solid var(--color-hover);
+    border-bottom: 2px solid var(--color-hover);
+
+    padding: 60px 0;
+}
+
+.about-info{
+    flex:2 1 300px; /*Definindo flex shrink de 1 e flex-basis de 300 para a quebra do conteúdo de texto quando a tela chegar nesse tamanho*/
+    margin: 0 10px;
+}
+
+.about-info h2{
+    font-size: 3em;
+    margin-bottom: .5em;
+}
+
+.about-info p{
+    font-size: 1.25em;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+    color: #7c7c7c;
+}
+
+.about-img-container{
+    flex:1 1 160px;/*Quando a imagem chegar em 160px ela quebra para a proxima linha*/
+    margin: 0 10px;
+}
+
+/*Editando parte dos Produtos*/
+
+.products{
+
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 60px 0px;
+
+}
+
+.products h2{
+    font-size: 3em;
+    margin: 0 10px 60px 10px;
+}
+
+.products-img-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.products-item{
+    flex:1 1 175px;/*Ocupondo o meu container superior e quebrando quando a imagem for menor que 175px*/
+    margin: 10px;
+}
+
+.products-item h3{ /*Criando o topo do meu card*/
+    font-size: 3em;
+    font-weight: 700;
+    color: var(--color-text);
+    background: #f7f7f7;
+
+    padding: 60px 20px;
+}
+
+/*Bordinhas superiores*/
+.purple{
+    border-top: 8px solid #ae81ff;
+}
+
+.pink{
+    border-top: 8px solid #f9265e;
+}
+
+.blue{
+    border-top: 8px solid #66d9eb;
+}
+
+/*Parte dos preços*/
+
+.pricing{
+
+    background: #f7f7f7;
+    padding: 60px;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.price-item{
+    flex: 1 1 260px;/*Definindo min width para navegadores em browsers. Sempre definir min width menor ou igual a 
+    260px. Isso evita que crie um scroll lateral na tela do celular*/
+    border: 4px solid white;
+    border-radius:8px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.price-item:hover{
+    border: 4px solid silver;
+    transition: 400ms;
+}
+
+.price-item h2{
+    font-size: 3em;
+    color: var(--color-text);
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.price-item span{
+    display:block;
+    max-width: 300px;
+    margin: 20px auto;
+
+    font-size: 3em;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 0 5px 0;
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+}
+
+.price-item sup{
+    font-size: 1.5rem;
+}
+
+.price-item ul{
+    max-width: 300px;
+    margin: 20px auto;
+    font-size: 1.25em;
+    font-style: italic;
+    color: #7c7c7c;
+}
+
+.price-item li{/*Fazendo com q as bolinhas fiquem alinhadas ao texto*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.price-item li::after{/*Pseudo-elemento que vem depois*/
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background: #2c70ff;
+
+    border-radius: 50%;
+}
+
+/*Estilizando meu Botão*/
+.price-item a{
+    max-width: 300px;
+    display: block;
+    margin: 20px auto;
+    border: 4px solid;
+    border-radius: 8px;
+    color: #222222;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.25em;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.price-item a:hover{
+    border:4px solid #2c70ff;
+    color: rgb(155, 147, 147);
+    transition: 400ms;
+}
+
+/*Estilizando Qualidade*/
+.quality{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin: 60px auto;
+}
+
+.quality-item{
+    flex: 1 1 300px;/*300px é mais ou menos o tamanho do nosso layout (960px)*/
+    margin: 20px 10px;
+}
+
+.quality-item h3{
+    font-size: 2.25em;
+    color: #a4a4a4;
+    margin-bottom: 20px;
+}
+
+.quality-item h3::before{/*Pseudo-elemento que vem antes! Ele é imaginário, mas aparece*/
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+
+}
+
+.quality-item:nth-of-type(3n+1) h3::before{/*Gravar e entender melhor isso*/
+    background: #ae81ff;
+}
+
+.quality-item:nth-of-type(3n+2) h3::before{/*Gravar e entender melhor isso*/
+    background: #f9265e;
+}
+
+.quality-item:nth-of-type(3n+3) h3::before{/*Gravar e entender melhor isso*/
+    background: #66d9eb;
+}
+
+.quality-item p{
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: #777777;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsividade*/
+@media (max-width: 800px){
+    .pricing{
+        padding-left:10px;
+        padding-right: 10px;
+    }
+    .pricing .price-item:nth-child(3){/*Jogada de marketing! No celular 
+        fazemos com q o plano mais caro seja exibido primeiro!!*/
+        order:-2;
+    }
+    .pricing .price-item:nth-child(2){
+        order:-1;/*E o mediano em segundo lugar*/
+    } 
 }
