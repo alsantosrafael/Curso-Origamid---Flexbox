@@ -17,3 +17,26 @@ Flex-box. Além disso, os fundamentos de responsividade são aplicados utilizand
 </h4> <br>
 
 <h2 id=#demo>Demonstração</h2>
+
+
+<h2 id=#tecnologias>Tecnologias</h2>
+<ul>
+	<li>HTML;<li>
+	<li>CSS.</li>
+</ul>
+
+
+	
+### Autor
+---
+
+<a href="https://github.com/alsantosrafael/">
+ <img style="border-radius: 50%;" src="https://avatars1.githubusercontent.com/u/60659321?s=460&u=f7b85d61e01a491287fce14c7e9bc0ee74475cc8&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Rafael Almeida</b></sub></a> <a href="https://github.com/alsantosrafael" title="Github">🚀</a>
+
+
+Feito com ❤️ por Rafael Almeida 👋🏽 Entre em contato!
+
+ [![Linkedin Badge](https://img.shields.io/badge/-Rafael-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/rafaalms/)](https://www.linkedin.com/in/rafaalms/) 
+[![Gmail Badge](https://img.shields.io/badge/-rafael.profeng@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rafael.profeng@gmail.com)](mailto:rafael.profeng@gmail.com)
