@@ -9,29 +9,29 @@
 <body>
     <!--A jogada inicial é criar uma div dentro da outra para fazer a caixa com as infos em cima-->
     <!--Info Superior-->
-    <div class="superinfo-bg">
-        <div class="superinfo">
-            <p>Seg / Sex - 08:00 às 18:00</p>
-            <a href="tel:+55219999-9999">+55 21 9999-9999</a>
-            <p>Av. Ali Perto, 330, Botafogo - RJ</p>
-        </div>
+
+    <div class="superinfo">
+        <p>Seg / Sex - 08:00 às 18:00</p>
+        <a href="tel:+55219999-9999">+55 21 9999-9999</a>
+        <p>Av. Ali Perto, 330, Botafogo - RJ</p>
     </div>
+
     <!--Menu de Navegação-->
-    <header class="menu-bg"><!--Mesmo esquema aqui Classe pai define o fundo e filha o conteúdo.-->
-        <div class="menu">
-            <div class="menu-logo">
-                <a href="#">FlexBlog</a><!--Interessante separar o logo do resto-->
-            </div>
-            <nav><!--Criando itens do menu-->
-                <ul>
-                    <li><a href="#about">Sobre</a></li><!--Quando eu coloco um href com # e clico ele vai para o primeiro elemento com esse mesmo ID-->
-                    <li><a href="#products">Produtos</a></li>
-                    <li><a href="#pricing">Preço</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-            </nav>
+    
+    <div class="menu">
+        <div class="menu-logo">
+            <a href="#">FlexBlog</a><!--Interessante separar o logo do resto-->
         </div>
-    </header>
+        <nav><!--Criando itens do menu-->
+            <ul>
+                <li><a href="#about">Sobre</a></li><!--Quando eu coloco um href com # e clico ele vai para o primeiro elemento com esse mesmo ID-->
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#pricing">Preço</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+
     <!--Corpo do site-->
     <!--Título-->
     <h1 class="title">Novos valores e <br>Propriedades de CSS</h1>
@@ -182,8 +182,8 @@
             <h2>Newsletter</h2>
             <p>assine e fique por dentro das novidades</p>
         </div>
-        <form class="newslet-form">
-            <input placeholder="Seu e-mail">
+        <form class="newsletter-form">
+            <input placeholder="Seu e-mail aqui.">
             <button type="button">Assinar</button>
         </form>
     </section>
