@@ -12,11 +12,13 @@ Flex-box. Além disso, os fundamentos de responsividade são aplicados utilizand
 </p>
 
 ### Status do Projeto:
+---
 <h4> 
 	  FlexBlog concluído :white_check_mark: 🚀!
 </h4> <br>
 
 ### Demonstração
+---
 
 
 ### Tecnologias
