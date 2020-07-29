@@ -11,17 +11,18 @@ Flex-box. Além disso, os fundamentos de responsividade são aplicados utilizand
  <a href="#autor">Autor</a>
 </p>
 
-<h2>Status do Projeto:</h2>
+### Status do Projeto:
 <h4> 
 	  FlexBlog concluído :white_check_mark: 🚀!
 </h4> <br>
 
-<h2 id=#demo>Demonstração</h2>
+### Demonstração
 
 
-<h2 id=#tecnologias>Tecnologias</h2>
+### Tecnologias
+---
 <ul>
-	<li>HTML;<li>
+	<li>HTML;</li>
 	<li>CSS.</li>
 </ul>
 
