@@ -1,4 +1,4 @@
-# Curso-Origamid---Flexbox: Projeto FlexBlog##
+# Curso-Origamid---Flexbox: Projeto FlexBlog
 ## Desenvolvimento Front End de um Website responsivo utilizando HTML e o CSS Flex-box. 
 Durante o curso de CSS Flexbox, ofertado pela empresa Origamid, somos convidados a desenvolver um projeto chamado de FlexBlog. O intuito é colocar em prática os conceitos do 
 Flex-box. Além disso, os fundamentos de responsividade são aplicados utilizando Media Query.
