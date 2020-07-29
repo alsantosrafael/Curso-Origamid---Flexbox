@@ -30,7 +30,6 @@ Flex-box. Além disso, os fundamentos de responsividade são aplicados utilizand
 </ul>
 
 
-	
 ### Autor
 ---
 
