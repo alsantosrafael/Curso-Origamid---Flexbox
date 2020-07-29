@@ -3,8 +3,8 @@
 Durante o curso de CSS Flexbox, ofertado pela empresa Origamid, somos convidados a desenvolver um projeto chamado de FlexBlog. O intuito é colocar em prática os conceitos do 
 Flex-box. Além disso, os fundamentos de responsividade são aplicados utilizando Media Query.
 
-<h2>Tabela de Conteúdos</h2>
-
+## Tabela de Conteúdos
+---
 <p align="center">
  <a href="#demo">Demonstração</a> •
  <a href="#tecnologias">Tecnologias</a> • 
