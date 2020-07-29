@@ -19,7 +19,7 @@ Flex-box. Além disso, os fundamentos de responsividade são aplicados utilizand
 
 ### Demonstração
 ---
-![Flexblog Demo](demo_fleblog-min.gif)
+![Flexblog Demo](https://github.com/alsantosrafael/Curso-Origamid---Flexbox/blob/master/demo_flexblog-min.gif)
 
 
 ### Tecnologias
