@@ -19,6 +19,7 @@ Flex-box. Além disso, os fundamentos de responsividade são aplicados utilizand
 
 ### Demonstração
 ---
+![Flexblog Demo](demo_fleblog-min.gif)
 
 
 ### Tecnologias
